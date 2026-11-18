@@ -1,0 +1,43 @@
+{
+  "name": "pydrift-auditor",
+  "displayName": "PyDrift",
+  "description": "Read-only Python execution configuration drift diagnostics.",
+  "version": "0.2.0",
+  "publisher": "sachin-local",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.90.0"
+  },
+  "categories": [
+    "Linters"
+  ],
+  "main": "./extension.js",
+  "capabilities": {
+    "untrustedWorkspaces": {
+      "supported": false
+    }
+  },
+  "contributes": {
+    "commands": [
+      {
+        "command": "pydrift.audit",
+        "title": "PyDrift: Audit Workspace"
+      },
+      {
+        "command": "pydrift.choosePython",
+        "title": "PyDrift: Choose Trusted Python"
+      },
+      {
+        "command": "pydrift.resetPython",
+        "title": "PyDrift: Forget Trusted Python"
+      }
+    ]
+  },
+  "scripts": {
+    "test": "python -m unittest discover -s tests -v",
+    "check": "node --check extension.js"
+  },
+  "devDependencies": {
+    "@vscode/vsce": "4.1.1"
+  }
+}

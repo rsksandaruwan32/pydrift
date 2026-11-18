@@ -1,0 +1,17 @@
+node_modules/
+__pycache__/
+*.vsix
+.venv/
+*.log
+
+# Local environments and secrets
+venv/
+env/
+.env
+.env.*
+!.env.example
+
+# Local caches and operating-system files
+.pytest_cache/
+.DS_Store
+Thumbs.db

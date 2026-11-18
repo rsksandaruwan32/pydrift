@@ -1,0 +1,33 @@
+Actual build validation
+Python runtime: 3.12.8
+Python unit tests: 20 passed
+Python 3.10 grammar parse: passed (not a Python 3.10 runtime test)
+JavaScript node --check: passed
+Not performed: Windows execution, Python 3.10/3.11 runtime matrix, VS Code host integration, VSIX packaging, Marketplace publication.
+
+test_bad_json (test_audit.Tests.test_bad_json) ... ok
+test_ci_pip (test_audit.Tests.test_ci_pip) ... ok
+test_cli (test_audit.Tests.test_cli) ... ok
+test_command_variable (test_audit.Tests.test_command_variable) ... ok
+test_drift (test_audit.Tests.test_drift) ... ok
+test_duplicate (test_audit.Tests.test_duplicate) ... ok
+test_empty (test_audit.Tests.test_empty) ... ok
+test_fingerprint (test_audit.Tests.test_fingerprint) ... ok
+test_jsonc (test_audit.Tests.test_jsonc) ... ok
+test_legacy (test_audit.Tests.test_legacy) ... ok
+test_missing (test_audit.Tests.test_missing) ... ok
+test_patch_ok (test_audit.Tests.test_patch_ok) ... ok
+test_pip_task (test_audit.Tests.test_pip_task) ... ok
+test_root_array (test_audit.Tests.test_root_array) ... ok
+test_same (test_audit.Tests.test_same) ... ok
+test_size_limit (test_audit.Tests.test_size_limit) ... ok
+test_symlink (test_audit.Tests.test_symlink) ... ok
+test_unclosed_comment (test_audit.Tests.test_unclosed_comment) ... ok
+test_versions (test_audit.Tests.test_versions) ... ok
+test_windows_strings (test_audit.Tests.test_windows_strings) ... ok
+
+----------------------------------------------------------------------
+Ran 20 tests in 0.050s
+
+OK
+
